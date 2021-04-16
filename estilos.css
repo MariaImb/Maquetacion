@@ -11,7 +11,7 @@ html{
 #contenedor{
     width: 85%;
     margin-left: auto; /**centro el contenedor*/
-    margin-right: auto;
+    margin-right: auto; /**centro el contenedor*/
     margin-top: 15px;
 }
 
@@ -23,27 +23,104 @@ html{
 }
 
 .logo{
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin-left: 10px;
     
 }
 
 .logo a{
-    text-decoration: none;
+    text-decoration: none; 
     color: white;
 }
 
+
+.contnav{
+    display: flex;
+    background-color: darkblue;     
+    margin-top: 5px;
+    justify-content: flex-end;
+
+}
 .navbar ul{
+    display: flex;
     list-style-type: none;
-    text-align: right;
 }
 
 .navbar ul li a{
     text-decoration: none;
     display: inline-block;
     color: white;
+    margin-right: 20px;
+
 }
 
 .navbar ul li a:hover{
     background-color: red;
     color: black
 }
+
+main{
+    display: flex;
+
+}
+
+.gris{
+    background-color: gray;
+    width: 80%;
+    padding: 20px;
+
+}
+
+.titulo{
+
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 15px;
+
+}
+
+.titulo h1{
+    margin-bottom: 15px;
+}
+
+ .titulo p{
+    margin-bottom: 15px;    
+ }
+
+.articulos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px;
+}
+
+.articulo h2{
+    margin-bottom: 15px;    
+}
+
+.articulo p{
+    margin-bottom: 15px;    
+}
+.articulo{
+    width: 48%;
+}
+.banner{
+    background-color: lightgray;
+    width: 20%;
+    max-height: 300px;   
+    margin-left: 10px;
+}
+.banner p{
+    padding: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    height: 40px;
+    color: white;
+}
+
